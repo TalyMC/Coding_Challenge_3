@@ -16,3 +16,14 @@ orders[2] += 5; //increasing the third order by 5
  console.log("Total Orders:", total);//Total: 35
 
  //Task 3: Employee Performance Tracking
+ let employee = {
+    name: "Billy Joe",
+    role: "Graphic Designer",
+    performanceScore: 75, //out of 100
+    isActive: true
+};
+employee.performanceScore = 89;//changed employee performance score
+employee.promotionEligible = true;//Added a new property with a booleam to the record
+//He seem good engough for a promotion
+
+console.log("Updated Employee Performance", employee);
