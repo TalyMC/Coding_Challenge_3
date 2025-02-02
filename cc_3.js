@@ -27,3 +27,15 @@ employee.promotionEligible = true;//Added a new property with a booleam to the r
 //He seem good engough for a promotion
 
 console.log("Updated Employee Performance", employee);
+
+//Task 4: Customer Feedback Record
+let feedback = [
+    { customerName: "Roz", feedbackText: "Slow service", rating: 3 },
+    { customerName: "Wazoeski", feedbackText: "It was mediocre", rating: 6 },
+    { customerName: "Sullivan", feedbackText: "Great service", rating: 8 }
+];
+
+// Adding a new customer
+feedback.push({ customerName: "Sanderson", feedbackText: "Wonderful service", rating: 9 });
+
+console.log("Customer Feedback:", feedback);
