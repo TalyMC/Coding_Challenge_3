@@ -39,3 +39,16 @@ let feedback = [
 feedback.push({ customerName: "Sanderson", feedbackText: "Wonderful service", rating: 9 });
 
 console.log("Customer Feedback:", feedback);
+
+//Task 5: Inventory Management System
+let inventory = {
+    itemName: "Matcha Powder",
+    stockCount: 20,
+    price: 360,
+    calculateTaxValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+console.log("Inventory Details:", inventory);
+console.log("Total Value:", inventory.calculateTaxValue());//Total: 7,200
